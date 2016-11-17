@@ -1,6 +1,6 @@
 package fr.paris10.miage.product;
 
-interface Product {
+public interface Product {
 
 	Product creerProduit();
 
