@@ -12,8 +12,12 @@ final class ProductA implements Product {
 		return new ProductA();
 	}
 
-	public void doYourStuff() {
+
+
+	@Override
+	public void perform() {
 		System.out.println(" I ’m a ProductA , doing my stuff");
+		
 	}
 
 }

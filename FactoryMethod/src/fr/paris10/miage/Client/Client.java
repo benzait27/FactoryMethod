@@ -7,17 +7,19 @@ public class Client {
 	Factory f = Factory.getInstance();
 	 Product prodA; 
 	 Product prodB; 
+	 
 	 public Client(){ 
-		 Product  prodA = new ProductA();
+		 super();
+		 Product  prodA = f.creeProduct("ProduitA");
 		 }
 	 public void foo(){ 
-			 prodA.doYourStuff(); 
-			 ProductB myProdB = new ProductB();
-			 myProdB.doIt();
-			 ProductC myProdC = new ProductC();
+		     prodA.perform();
+			// ProductB myProdB = new ProductB();
+			// myProdB.doIt();
+			// ProductC myProdC = new ProductC();
 	
 	 
-			 myProdB.perform(); 
+			// myProdB.perform(); 
 			 } 
 	 
 			 } 
